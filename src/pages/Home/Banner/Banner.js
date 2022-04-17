@@ -1,11 +1,13 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import banner1 from '../../../Images/banner_1.webp'
 import banner2 from '../../../Images/banner_2.jpg'
 
 import './Banner.css'
 
 const Banner = () => {
+    const navigate = useNavigate()
     return (
         <div className='
          row'>
@@ -20,7 +22,7 @@ const Banner = () => {
                         <Carousel.Caption className=' text-height'>
 
                             <p className='text_title' >Photography is an art if it is My  phonography its just gonna  insane...you can buy my photo with a good price </p>
-                            <button className='btn_photos'>See all Services</button>
+                            <button onClick={() => navigate('/service')} className='btn_photos'>See all Services</button>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>

@@ -6,6 +6,7 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import './Login.css'
+import GoogleLogin from '../SocicalMediea/GoogleLogin';
 
 const Login = () => {
     const [email, setEmail] = useState('')
@@ -60,6 +61,7 @@ const Login = () => {
                 <button className='btn btn-link text-primary fw-bolder text-decoration-none h4' onClick={handleResetPassword} >
                     Reset password
                 </button></p>
+            <GoogleLogin></GoogleLogin>
             <ToastContainer></ToastContainer>
         </div >
     );

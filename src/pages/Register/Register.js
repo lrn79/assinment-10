@@ -4,6 +4,7 @@ import auth from '../../firebase.init';
 import './Register.css'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import Loading from '../Loading/Loading';
+import GoogleLogin from '../SocicalMediea/GoogleLogin';
 
 const Register = () => {
 
@@ -67,7 +68,7 @@ const Register = () => {
 
                 </form>
                 <p className='mt-2 mx-5'>ALready have an account ? <Link to='/login' className='h4 text-danger text-decoration-none'>login please! </Link></p>
-
+                <GoogleLogin></GoogleLogin>
             </div >
         </div>
     );

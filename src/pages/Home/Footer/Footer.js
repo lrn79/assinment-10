@@ -14,9 +14,9 @@ const Footer = () => {
                         </div>
                         <div className="col col-lg-6 text-white">
                             <div className="ms-5">
-                                <h1 className="text-white">Contact with me </h1>
-                                <h4>phone : 01556666666</h4>
-                                <h4>Email : nayeem126670@gmail.com</h4>
+                                <h1 className="text-white">📞Contact with me </h1>
+                                <h4 className='mx-5'>phone : 01556666666</h4>
+                                <h4 className='mx-5'>Email : nayeem126670@gmail.com</h4>
 
 
                             </div>

@@ -1,17 +1,21 @@
-.login_from {
+.register_from {
     border-radius: 50px;
     background: #e0e0e0;
     box-shadow: 44px 44px 31px #828282,
         -44px -44px 31px #ffffff;
     width: 600px;
-    height: 550px;
+    height: 750px;
     padding: 20px;
     margin: 0 auto;
     margin-top: 50px;
 
 }
 
-.login_from input:not([type=checkbox]) {
+.text_header {
+    color: #10ed00;
+}
+
+.register_from input:not([type=checkbox]) {
     display: block;
     width: 71%;
     height: 51px;
@@ -23,15 +27,9 @@
     margin-left: 50px;
 }
 
-.btn_login {
+.btn_register {
+
+    /* background-color: #0e77f0;
+    color: #ffffff; */
     margin-left: 500px;
-}
-
-.bg_btn {
-    background-color: #10ed00;
-
-}
-
-.text-color {
-    color: #10ed00;
 }

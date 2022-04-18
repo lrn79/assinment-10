@@ -34,7 +34,7 @@ const Banner = () => {
 
                         <Carousel.Caption className=' text-height'>
 
-                            <p className='text_title' >Photography is an art if it is wild phonography its just gonna  insane...you can buy my photo with a good price </p>
+                            <p className='text_title' >Photography is an art if it is My  phonography its just gonna  insane...you can buy my photo with a good price </p>
                             <button className='btn_photos'>See all photos</button>
                         </Carousel.Caption>
                     </Carousel.Item>

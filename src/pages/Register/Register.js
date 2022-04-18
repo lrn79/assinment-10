@@ -22,7 +22,7 @@ const Register = () => {
         user,
         loading,
 
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     const handleUserName = e => {
         setUsername(e.target.value)
